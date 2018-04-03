@@ -1,4 +1,4 @@
-FROM cross-compiler:base
+FROM 100.125.0.31:20202/zhoujiawei/cross-compiler:base.1
 
 ENV CROSS_TRIPLE x86_64-linux-gnu
 ENV CROSS_ROOT /usr/${CROSS_TRIPLE}
