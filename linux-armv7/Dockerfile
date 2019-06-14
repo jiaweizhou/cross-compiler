@@ -1,4 +1,4 @@
-FROM cross-compiler:base
+FROM swr.cn-north-1.myhuaweicloud.com/zhou544028616/cross-compiler:base	
 
 # Add the cross compiler sources
 RUN echo "deb http://emdebian.org/tools/debian/ jessie main" >> /etc/apt/sources.list && \
